@@ -5,7 +5,7 @@ This is a solution to https://www.frontendmentor.io/challenges/product-preview-c
 - Solution URL:https:https://www.frontendmentor.io/solutions/product-preview-card-grid-tpWJfZxh-t
 - Live Site URL:https://madmohammed22.github.io/Product-preview-card-component/
 # My process
-- emantic HTML5 markup
+- Semantic HTML5 markup
 - Flexbox
 # Author
 Frontend Mentor -https://www.frontendmentor.io/profile/Madmohammed22
