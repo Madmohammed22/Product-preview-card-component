@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  box-shadow: 0 0.063rem 0.188rem rgb(28 35 43 / 12%),
+    0 0.063rem 0.125rem rgb(28 35 43 / 24%);
+}
+
+.box:hover {
+  box-shadow: 0px 10px 20px 3px rgba(31 50 81/30%);
+  transition: all 0.3s ease-in-out;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  filter: brightness(90%);
+}
+
+main {
+  margin: 1.5rem;
+  max-width: 40.3rem;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  transition: all ease 0.5s;
+}
+
+.container {
+  padding: 2.5rem;
+}
+
+.container2 {
+  margin-top: 1.775rem;
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 1.875rem;
+}
+
+.spacing {
+  margin-bottom: 0.625rem;
+  width: 500;
+  font-size: 0.875rem;
+  font-family: "Montserrat", serif;
+  color: #868e96;
+  text-transform: uppercase;
+  letter-spacing: 0.313rem;
+}
+
+.content {
+  width: 500;
+  margin-top: 1.494rem;
+  font-size: 0.875rem;
+  font-family: "Montserrat", serif;
+  color: #adb5bd;
+  line-height: 1.8;
+  letter-spacing: -0.006rem;
+}
+
+h1 {
+  width: 700;
+  margin-top: 0.938rem;
+  margin-bottom: -0.25rem;
+  font-size: 2.275rem;
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+  letter-spacing: -0.013rem;
+  line-height: 1;
+}
+
+h2 {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-size: 1.85rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-family: "Montserrat", serif;
+  color: #adb5bd;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.Adding-cart {
+  background-color: hsl(158, 36%, 37%);
+  font-family: "Montserrat", serif;
+  color: #fff;
+  font-size: 0.95rem;
+  padding: 0.763rem 0.8rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: 2 column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.Adding-cart:hover {
+  background-color: hsl(158, 37%, 17%);
+}
+
+.Icon {
+  align-items: end;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.copyright {
+  font-family: "Montserrat", serif;
+  font-size: 0.688rem;
+  position: fixed;
+  bottom: 0.325rem;
+  width: 100%;
+  text-align: center;
+}
